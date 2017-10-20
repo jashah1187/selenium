@@ -1,0 +1,84 @@
+package com.common.components;
+
+import java.net.MalformedURLException;
+import java.net.URL;
+import java.util.concurrent.TimeUnit;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.Platform;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.ie.InternetExplorerDriver;
+import org.openqa.selenium.remote.CapabilityType;
+import org.openqa.selenium.remote.DesiredCapabilities;
+import org.openqa.selenium.remote.RemoteWebDriver;
+import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.BeforeSuite;
+import org.testng.annotations.BeforeTest;
+import org.testng.annotations.Test;
+
+public class webdriver {
+public static RemoteWebDriver driver;
+//@BeforeTest
+public static void  webdriver(){
+try {
+	DesiredCapabilities cap =DesiredCapabilities.firefox();
+	cap.setPlatform(Platform.WIN10);
+	URL url;
+	
+		url = new URL("http://localhost:4444/wd/hub");
+		WebDriver driver =new RemoteWebDriver(url,cap);
+		System.out.println("Remote Driver object created");
+		driver.navigate().to("http://www.calculator.net/"); 
+		  driver.findElement(By.xpath("//*[contains(text(),'Math Calculators')]")).click();
+		     //   driver.findElement(By.xpath(".//*[@id='menu']/div[3]/a")).click();
+		    
+		    // Click on Percent Calculators
+		    driver.findElement(By.xpath("//*[@id='content']//*[contains(text(),'Percentage Calculator')]")).click();
+		    
+		    // Enter value 10 in the first number of the percent Calculator
+		    driver.findElement(By.id("cpar1")).sendKeys(10);
+		    
+		    // Enter value 50 in the second number of the percent Calculator
+		    driver.findElement(By.id("cpar2")).sendKeys(20);
+		    
+		    // Click Calculate Button
+		    driver.findElement(By.xpath(".//*[@id='content']/table/tbody/tr[2]/td/input[2]")).click();
+
+		    
+		    // Get the Result Text based on its xpath
+		    String result = driver.findElement(By.xpath(".//*[@id='content']/p[2]/font/b")).getText();
+
+		    
+		    // Print a Log In message to the screen
+		    System.out.println(" The Result is " + result);
+		    
+		    //Close the Browser.
+		   // driver.close();
+		} catch (MalformedURLException e) {
+		// TODO Auto-generated catch block
+		e.printStackTrace();
+	}
+	
+	
+	
+/*
+	System.setProperty("webdriver.chrome.driver", "inputs//chromedriver.exe");
+	driver = new ChromeDriver();  
+    System.out.println("Driver object created");
+    //Puts an Implicit wait, Will wait for 10 seconds before throwing exception
+   driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS); 
+	//Puts an Implicit wait, Will wait for 10 seconds before throwing exception
+    driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS); 
+    driver.navigate().to("http://www.calculator.net/"); */
+   
+  }
+public static void startdriver(){
+		driver.navigate().to("http://www.calculator.net/");
+}
+public static void stopdriver(){
+	 driver.close();
+}
+
+}
+

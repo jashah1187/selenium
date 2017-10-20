@@ -1,0 +1,12 @@
+http://10.51.121.22:4444/grid/register/
+
+
+java -D webdriver.gecko.driver="C:\geckodriver.exe" -jar selenium-server-standalone-3.4.0.jar -role webdriver -hub http://10.51.121.22:4444/grid/register -port 5566
+
+https://cdn.guru99.com/images/DesiredCapabilities_code.png
+
+
+
+java -jar selenium-server-standalone-3.6.0.jar -role hub (start the Hub) - Works
+java  -jar selenium-server-standalone-3.6.0.jar -role webdriver -hub http://192.168.1.3:4444/grid/register (start the node) - Works
+java -Dwebdriver.chrome.driver=chromedriver.exe -jar selenium-server-standalone-3.6.0.jar -role webdriver -hub http://localhost:4444/grid/register -browser browserName="chrome",version=ANY,platform=WINDOWS,maxInstances=5 

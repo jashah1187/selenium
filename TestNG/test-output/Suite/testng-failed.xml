@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <parameter name="val6" value="6"/>
+  <parameter name="val5" value="5"/>
+  <parameter name="val4" value="4"/>
+  <parameter name="val3" value="3"/>
+  <parameter name="val2" value="22"/>
+  <parameter name="val1" value="11"/>
+  <test name="Test(failed)">
+    <parameter name="val6" value="6"/>
+    <parameter name="val5" value="5"/>
+    <parameter name="val4" value="4"/>
+    <parameter name="val3" value="3"/>
+    <parameter name="val2" value="22"/>
+    <parameter name="val1" value="11"/>
+    <classes>
+      <class name="TestLab.test1">
+        <methods>
+          <include name="testset2" invocation-numbers="0"/>
+          <include name="testset1" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- TestLab.test1 -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

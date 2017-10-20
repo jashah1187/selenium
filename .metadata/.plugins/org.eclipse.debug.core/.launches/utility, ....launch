@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="org.testng.eclipse.launchconfig">
+    <stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="org.testng.remote.RemoteTestNG"/>
+    <stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="testing"/>
+    <mapAttribute key="org.testng.eclipse.ALL_CLASS_METHODS"/>
+    <listAttribute key="org.testng.eclipse.CLASS_TEST_LIST">
+        <listEntry value="TestLab.test1"/>
+        <listEntry value="com.app.generics.XL"/>
+        <listEntry value="com.app.components.appcommondrivers"/>
+        <listEntry value="com.app.generics.XL1"/>
+        <listEntry value="com.app.OR.percentageca"/>
+        <listEntry value="testNG.myproject"/>
+        <listEntry value="com.app.generics.ExcelUtils"/>
+        <listEntry value="com.app.generics.Dataprovider_test"/>
+        <listEntry value="com.app.generics.NewAndroidDriver"/>
+        <listEntry value="testNG.webdriverdemo"/>
+        <listEntry value="TestLab.NewTest"/>
+        <listEntry value="com.app.generics.KeywordDriven"/>
+        <listEntry value="test.tc1"/>
+        <listEntry value="com.app.generics.ExecuteTestCase"/>
+        <listEntry value="testNG.webdriver"/>
+        <listEntry value="testNG.CopyOftest1"/>
+        <listEntry value="com.app.components.percentilecalculator"/>
+        <listEntry value="testNG.ApachePOIExcelRead"/>
+        <listEntry value="com.app.generics.ObjectMap"/>
+        <listEntry value="TestLab.utility"/>
+        <listEntry value="com.app.generics.Constant"/>
+        <listEntry value="com.app.generics.Locator"/>
+        <listEntry value="com.common.components.webdriver"/>
+        <listEntry value="com.app.generics.GenerateXLReport"/>
+        <listEntry value="com.app.generics.Retryfailed"/>
+        <listEntry value="testNG.tc1"/>
+        <listEntry value="com.app.generics.RetryListener"/>
+        <listEntry value="testNG.addingtwonumber"/>
+        <listEntry value="testdata.constant"/>
+        <listEntry value="com.app.generics.ExcelReader"/>
+        <listEntry value="com.app.OR.landing"/>
+        <listEntry value="com.app.generics.ExcelWrite"/>
+        <listEntry value="com.app.generics.NewIOSDriver"/>
+        <listEntry value="com.app.generics.ReadXL"/>
+        <listEntry value="com.app.generics.Commonstudio"/>
+        <listEntry value="com.app.generics.ExcelDatareader"/>
+        <listEntry value="com.app.generics.SendReportmail"/>
+        <listEntry value="testNG.test1"/>
+        <listEntry value="com.app.generics.PropertyFileReader"/>
+        <listEntry value="testNG.helloworld"/>
+    </listAttribute>
+    <listAttribute key="org.testng.eclipse.METHOD_TEST_LIST"/>
+    <listAttribute key="org.testng.eclipse.PACKAGE_TEST_LIST"/>
+    <stringAttribute key="org.testng.eclipse.PRE_DEFINED_LISTENERS" value=""/>
+    <intAttribute key="org.testng.eclipse.TYPE" value="1"/>
+</launchConfiguration>
