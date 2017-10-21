@@ -21,7 +21,8 @@ public class webdriver {
 public static RemoteWebDriver driver;
 //@BeforeTest
 public static void  webdriver(){
-try {
+/* Code for Grid Execution */                    
+	try {
 	DesiredCapabilities cap =DesiredCapabilities.chrome();
 	cap.setPlatform(Platform.WIN10);
 	URL url;
@@ -38,7 +39,7 @@ try {
 	
 	
 	
-/*
+/* Code for standalone Execution
 	System.setProperty("webdriver.chrome.driver", "inputs//chromedriver.exe");
 	driver = new ChromeDriver();  
     System.out.println("Driver object created");

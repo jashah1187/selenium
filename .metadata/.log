@@ -1526,3 +1526,107 @@ This warning can be switched off on the Team > Git > Confirmations and Warnings 
   Class:     org.testng.remote.RemoteTestNG
   Args:      -serport 57006 -protocol json -d D:\Users\gerobins\Documents\Javaproject\auto\test-output C:\Users\gerobins\AppData\Local\Temp\testng-eclipse-194376109\testng-customsuite.xml
 java -ea -classpath C:\Users\gerobins\eclipse\java-oxygen\eclipse\configuration\org.eclipse.osgi\548\0\.cp\lib\testng-remote.jar:D:\Users\gerobins\Documents\Javaproject\auto\bin:C:\Users\gerobins\.p2\pool\plugins\org.testng_6.12.0.r201709030044.jar:C:\Users\gerobins\.p2\pool\plugins\com.beust.jcommander_1.66.0.jar:C:\Users\gerobins\.p2\pool\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar:C:\Users\gerobins\.p2\pool\plugins\org.yaml.snakeyaml_1.17.0.jar:D:\Users\gerobins\Documents\Javaproject\auto\lib\byte-buddy-1.7.5.jar:D:\Users\gerobins\Documents\Javaproject\auto\lib\client-combined-3.6.0-sources.jar:D:\Users\gerobins\Documents\Javaproject\auto\lib\client-combined-3.6.0.jar:D:\Users\gerobins\Documents\Javaproject\auto\lib\commons-beanutils-1.9.2.jar:D:\Users\gerobins\Documents\Javaproject\auto\lib\commons-codec-1.10.jar:D:\Users\gerobins\Documents\Javaproject\auto\lib\commons-collections-3.2.2.jar:D:\Users\gerobins\Documents\Javaproject\auto\lib\commons-collections4-4.1.jar:D:\Users\gerobins\Documents\Javaproject\auto\lib\commons-digester-1.8.1.jar:D:\Users\gerobins\Documents\Javaproject\auto\lib\commons-exec-1.3.jar:D:\Users\gerobins\Documents\Javaproject\auto\lib\commons-io-2.4.jar:D:\Users\gerobins\Documents\Javaproject\auto\lib\commons-lang-2.6.jar:D:\Users\gerobins\Documents\Javaproject\auto\lib\commons-lang3-3.4.jar:D:\Users\gerobins\Documents\Javaproject\auto\lib\commons-logging-1.2.jar:D:\Users\gerobins\Documents\Javaproject\auto\lib\commons-validator-1.5.1.jar:D:\Users\gerobins\Documents\Javaproject\auto\lib\ExcelReportGenerator-4.0.1.jar:D:\Users\gerobins\Documents\Javaproject\auto\lib\gson-2.8.0.jar:D:\Users\gerobins\Documents\Javaproject\auto\lib\guava-23.0.jar:D:\Users\gerobins\Documents\Javaproject\auto\lib\httpclient-4.5.3.jar:D:\Users\gerobins\Documents\Javaproject\auto\lib\httpcore-4.4.6.jar:D:\Users\gerobins\Documents\Javaproject\auto\lib\jna-4.1.0.jar:D:\Users\gerobins\Documents\Javaproject\auto\lib\jna-platform-4.1.0.jar:D:\Users\gerobins\Documents\Javaproject\auto\lib\poi-3.14-20160307.jar:D:\Users\gerobins\Documents\Javaproject\auto\lib\poi-3.15.jar:D:\Users\gerobins\Documents\Javaproject\auto\lib\poi-ooxml-3.14-20160307.jar:D:\Users\gerobins\Documents\Javaproject\auto\lib\poi-ooxml-3.15.jar:D:\Users\gerobins\Documents\Javaproject\auto\lib\poi-ooxml-schemas-3.14-20160307.jar:D:\Users\gerobins\Documents\Javaproject\auto\lib\poi-ooxml-schemas-3.15.jar:D:\Users\gerobins\Documents\Javaproject\auto\lib\testng.jar org.testng.remote.RemoteTestNG -serport 57006 -protocol json -d D:\Users\gerobins\Documents\Javaproject\auto\test-output C:\Users\gerobins\AppData\Local\Temp\testng-eclipse-194376109\testng-customsuite.xml
+!SESSION 2017-10-21 11:35:21.410 -----------------------------------------------
+eclipse.buildId=4.7.1.M20170906-1700
+java.version=9
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -data D:\GITRepository\Calculator -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2017-10-21 11:35:30.752
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\gerobins'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.testng.eclipse 1 0 2017-10-21 11:38:20.197
+!MESSAGE [TestNGLaunchShortcut] Examining Java element:[Working copy] NewTest.java [in TestLab [in src [in auto]]]
+  package TestLab
+  import org.testng.annotations.Test
+  import java.io.FileInputStream
+  import java.io.FileNotFoundException
+  import java.io.IOException
+  import org.testng.Assert
+  import org.openqa.selenium.By
+  import org.openqa.selenium.WebDriver
+  import org.openqa.selenium.firefox.FirefoxDriver
+  import org.openqa.selenium.support.ui.ExpectedConditions
+  import org.openqa.selenium.support.ui.WebDriverWait
+  import org.testng.annotations.BeforeClass
+  import org.testng.annotations.DataProvider
+  import org.testng.annotations.Test#2
+  import test.tc1
+  import com.app.generics.*
+  class NewTest
+    void testset1(String, String)
+    void testset2(String, String)
+    Object[][] dp()
+
+!ENTRY org.testng.eclipse 1 0 2017-10-21 11:38:20.984
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\gerobins\eclipse\java-oxygen\eclipse\configuration\org.eclipse.osgi\548\0\.cp\lib\testng-remote.jar D:\GITRepository\Calculator\auto\bin C:\Users\gerobins\.p2\pool\plugins\org.testng_6.12.0.r201709030044.jar C:\Users\gerobins\.p2\pool\plugins\com.beust.jcommander_1.66.0.jar C:\Users\gerobins\.p2\pool\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar C:\Users\gerobins\.p2\pool\plugins\org.yaml.snakeyaml_1.17.0.jar D:\GITRepository\Calculator\auto\lib\byte-buddy-1.7.5.jar D:\GITRepository\Calculator\auto\lib\client-combined-3.6.0-sources.jar D:\GITRepository\Calculator\auto\lib\client-combined-3.6.0.jar D:\GITRepository\Calculator\auto\lib\commons-beanutils-1.9.2.jar D:\GITRepository\Calculator\auto\lib\commons-codec-1.10.jar D:\GITRepository\Calculator\auto\lib\commons-collections-3.2.2.jar D:\GITRepository\Calculator\auto\lib\commons-collections4-4.1.jar D:\GITRepository\Calculator\auto\lib\commons-digester-1.8.1.jar D:\GITRepository\Calculator\auto\lib\commons-exec-1.3.jar D:\GITRepository\Calculator\auto\lib\commons-io-2.4.jar D:\GITRepository\Calculator\auto\lib\commons-lang-2.6.jar D:\GITRepository\Calculator\auto\lib\commons-lang3-3.4.jar D:\GITRepository\Calculator\auto\lib\commons-logging-1.2.jar D:\GITRepository\Calculator\auto\lib\commons-validator-1.5.1.jar D:\GITRepository\Calculator\auto\lib\ExcelReportGenerator-4.0.1.jar D:\GITRepository\Calculator\auto\lib\gson-2.8.0.jar D:\GITRepository\Calculator\auto\lib\guava-23.0.jar D:\GITRepository\Calculator\auto\lib\httpclient-4.5.3.jar D:\GITRepository\Calculator\auto\lib\httpcore-4.4.6.jar D:\GITRepository\Calculator\auto\lib\jna-4.1.0.jar D:\GITRepository\Calculator\auto\lib\jna-platform-4.1.0.jar D:\GITRepository\Calculator\auto\lib\poi-3.14-20160307.jar D:\GITRepository\Calculator\auto\lib\poi-3.15.jar D:\GITRepository\Calculator\auto\lib\poi-ooxml-3.14-20160307.jar D:\GITRepository\Calculator\auto\lib\poi-ooxml-3.15.jar D:\GITRepository\Calculator\auto\lib\poi-ooxml-schemas-3.14-20160307.jar D:\GITRepository\Calculator\auto\lib\poi-ooxml-schemas-3.15.jar D:\GITRepository\Calculator\auto\lib\testng.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 57319 -protocol json -d D:\GITRepository\Calculator\auto\test-output C:\Users\gerobins\AppData\Local\Temp\testng-eclipse--2109645987\testng-customsuite.xml
+java -ea -classpath C:\Users\gerobins\eclipse\java-oxygen\eclipse\configuration\org.eclipse.osgi\548\0\.cp\lib\testng-remote.jar:D:\GITRepository\Calculator\auto\bin:C:\Users\gerobins\.p2\pool\plugins\org.testng_6.12.0.r201709030044.jar:C:\Users\gerobins\.p2\pool\plugins\com.beust.jcommander_1.66.0.jar:C:\Users\gerobins\.p2\pool\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar:C:\Users\gerobins\.p2\pool\plugins\org.yaml.snakeyaml_1.17.0.jar:D:\GITRepository\Calculator\auto\lib\byte-buddy-1.7.5.jar:D:\GITRepository\Calculator\auto\lib\client-combined-3.6.0-sources.jar:D:\GITRepository\Calculator\auto\lib\client-combined-3.6.0.jar:D:\GITRepository\Calculator\auto\lib\commons-beanutils-1.9.2.jar:D:\GITRepository\Calculator\auto\lib\commons-codec-1.10.jar:D:\GITRepository\Calculator\auto\lib\commons-collections-3.2.2.jar:D:\GITRepository\Calculator\auto\lib\commons-collections4-4.1.jar:D:\GITRepository\Calculator\auto\lib\commons-digester-1.8.1.jar:D:\GITRepository\Calculator\auto\lib\commons-exec-1.3.jar:D:\GITRepository\Calculator\auto\lib\commons-io-2.4.jar:D:\GITRepository\Calculator\auto\lib\commons-lang-2.6.jar:D:\GITRepository\Calculator\auto\lib\commons-lang3-3.4.jar:D:\GITRepository\Calculator\auto\lib\commons-logging-1.2.jar:D:\GITRepository\Calculator\auto\lib\commons-validator-1.5.1.jar:D:\GITRepository\Calculator\auto\lib\ExcelReportGenerator-4.0.1.jar:D:\GITRepository\Calculator\auto\lib\gson-2.8.0.jar:D:\GITRepository\Calculator\auto\lib\guava-23.0.jar:D:\GITRepository\Calculator\auto\lib\httpclient-4.5.3.jar:D:\GITRepository\Calculator\auto\lib\httpcore-4.4.6.jar:D:\GITRepository\Calculator\auto\lib\jna-4.1.0.jar:D:\GITRepository\Calculator\auto\lib\jna-platform-4.1.0.jar:D:\GITRepository\Calculator\auto\lib\poi-3.14-20160307.jar:D:\GITRepository\Calculator\auto\lib\poi-3.15.jar:D:\GITRepository\Calculator\auto\lib\poi-ooxml-3.14-20160307.jar:D:\GITRepository\Calculator\auto\lib\poi-ooxml-3.15.jar:D:\GITRepository\Calculator\auto\lib\poi-ooxml-schemas-3.14-20160307.jar:D:\GITRepository\Calculator\auto\lib\poi-ooxml-schemas-3.15.jar:D:\GITRepository\Calculator\auto\lib\testng.jar org.testng.remote.RemoteTestNG -serport 57319 -protocol json -d D:\GITRepository\Calculator\auto\test-output C:\Users\gerobins\AppData\Local\Temp\testng-eclipse--2109645987\testng-customsuite.xml
+
+!ENTRY org.eclipse.core.jobs 4 2 2017-10-21 11:41:01.258
+!MESSAGE An internal error occurred during: "Compute launch button tooltip".
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.jdt.internal.core.JavaModelManager.getOption(JavaModelManager.java:2252)
+	at org.eclipse.jdt.core.JavaCore.getOption(JavaCore.java:4135)
+	at org.eclipse.jdt.internal.core.JavaModelManager.getOption(JavaModelManager.java:2277)
+	at org.eclipse.jdt.internal.core.JavaProject.getOption(JavaProject.java:1917)
+	at org.eclipse.jdt.internal.core.AbstractClassFile.validateClassFile(AbstractClassFile.java:378)
+	at org.eclipse.jdt.internal.core.AbstractClassFile.validateExistence(AbstractClassFile.java:445)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:245)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:583)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:320)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:306)
+	at org.eclipse.jdt.internal.core.JavaElement.exists(JavaElement.java:224)
+	at org.eclipse.jdt.internal.core.Openable.exists(Openable.java:203)
+	at org.eclipse.jdt.internal.core.PackageFragmentRoot.getModuleDescription(PackageFragmentRoot.java:872)
+	at org.eclipse.jdt.internal.core.NameLookup.getModuleDescription(NameLookup.java:878)
+	at org.eclipse.jdt.internal.core.NameLookup.seekModule(NameLookup.java:1278)
+	at org.eclipse.jdt.internal.core.NameLookup.findModule(NameLookup.java:1021)
+	at org.eclipse.jdt.internal.core.SearchableEnvironment.findModuleContext(SearchableEnvironment.java:911)
+	at org.eclipse.jdt.internal.core.SearchableEnvironment.getModulesDeclaringPackage(SearchableEnvironment.java:813)
+	at org.eclipse.jdt.internal.compiler.lookup.ModuleBinding.getVisiblePackage(ModuleBinding.java:528)
+	at org.eclipse.jdt.internal.compiler.lookup.ModuleBinding.getTopLevelPackage(ModuleBinding.java:481)
+	at org.eclipse.jdt.internal.compiler.lookup.ModuleBinding.getVisiblePackage(ModuleBinding.java:574)
+	at org.eclipse.jdt.internal.compiler.lookup.ModuleBinding.addPackage(ModuleBinding.java:634)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.createPackage(LookupEnvironment.java:1064)
+	at org.eclipse.jdt.internal.compiler.lookup.CompilationUnitScope.buildTypeBindings(CompilationUnitScope.java:129)
+	at org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment.buildTypeBindings(LookupEnvironment.java:457)
+	at org.eclipse.jdt.internal.compiler.Compiler.internalBeginToCompile(Compiler.java:838)
+	at org.eclipse.jdt.internal.compiler.Compiler.beginToCompile(Compiler.java:387)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:1143)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.resolve(CompilationUnitResolver.java:685)
+	at org.eclipse.jdt.core.dom.ASTParser.internalCreateAST(ASTParser.java:1200)
+	at org.eclipse.jdt.core.dom.ASTParser.createAST(ASTParser.java:815)
+	at org.testng.eclipse.ui.util.TypeParser.parseType(TypeParser.java:32)
+	at org.testng.eclipse.util.TestSearchEngine.doIsTest(TestSearchEngine.java:256)
+	at org.testng.eclipse.util.TestSearchEngine.doIsTest(TestSearchEngine.java:245)
+	at org.testng.eclipse.util.TestSearchEngine.isTest(TestSearchEngine.java:213)
+	at org.testng.eclipse.launch.tester.JavaTypeExtender.isTest(JavaTypeExtender.java:29)
+	at org.testng.eclipse.launch.tester.JavaTypeExtender.test(JavaTypeExtender.java:14)
+	at org.testng.eclipse.launch.tester.TestNGPropertyTester.isTestClass(TestNGPropertyTester.java:60)
+	at org.testng.eclipse.launch.tester.TestNGPropertyTester.test(TestNGPropertyTester.java:42)
+	at org.eclipse.core.internal.expressions.Property.test(Property.java:58)
+	at org.eclipse.core.internal.expressions.TestExpression.evaluate(TestExpression.java:100)
+	at org.eclipse.core.internal.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:51)
+	at org.eclipse.core.internal.expressions.IterateExpression.evaluate(IterateExpression.java:160)
+	at org.eclipse.core.internal.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:51)
+	at org.eclipse.core.internal.expressions.WithExpression.evaluate(WithExpression.java:75)
+	at org.eclipse.core.internal.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:51)
+	at org.eclipse.core.internal.expressions.EnablementExpression.evaluate(EnablementExpression.java:55)
+	at org.eclipse.debug.internal.ui.launchConfigurations.LaunchShortcutExtension.evalEnablementExpression(LaunchShortcutExtension.java:281)
+	at org.eclipse.debug.internal.ui.contextlaunching.LaunchingResourceManager.getShortcutsForSelection(LaunchingResourceManager.java:454)
+	at org.eclipse.debug.internal.ui.contextlaunching.LaunchingResourceManager.pruneShortcuts(LaunchingResourceManager.java:393)
+	at org.eclipse.debug.internal.ui.contextlaunching.LaunchingResourceManager.getLabel(LaunchingResourceManager.java:317)
+	at org.eclipse.debug.internal.ui.contextlaunching.LaunchingResourceManager.computeLabels(LaunchingResourceManager.java:244)
+	at org.eclipse.debug.internal.ui.contextlaunching.LaunchingResourceManager$1$1.run(LaunchingResourceManager.java:142)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)

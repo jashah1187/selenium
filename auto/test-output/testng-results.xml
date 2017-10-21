@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2017-10-20T10:52:00Z" name="Default suite" finished-at="2017-10-20T10:53:01Z" duration-ms="60866">
+  <suite started-at="2017-10-21T06:08:22Z" name="Default suite" finished-at="2017-10-21T06:09:39Z" duration-ms="77573">
     <groups>
     </groups>
-    <test started-at="2017-10-20T10:52:00Z" name="Default test" finished-at="2017-10-20T10:53:01Z" duration-ms="60866">
+    <test started-at="2017-10-21T06:08:22Z" name="Default test" finished-at="2017-10-21T06:09:39Z" duration-ms="77573">
       <class name="TestLab.NewTest">
-        <test-method signature="testset1(java.lang.String, java.lang.String)[pri:1, instance:TestLab.NewTest@33c911a1]" started-at="2017-10-20T16:22:00Z" name="testset1" data-provider="dp" finished-at="2017-10-20T16:22:16Z" duration-ms="15547" status="PASS">
+        <test-method signature="testset1(java.lang.String, java.lang.String)[pri:1, instance:TestLab.NewTest@33c911a1]" started-at="2017-10-21T11:38:22Z" name="testset1" data-provider="dp" finished-at="2017-10-21T11:38:43Z" duration-ms="21338" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -23,7 +23,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testset1 -->
-        <test-method signature="testset1(java.lang.String, java.lang.String)[pri:1, instance:TestLab.NewTest@33c911a1]" started-at="2017-10-20T16:22:16Z" name="testset1" data-provider="dp" finished-at="2017-10-20T16:22:31Z" duration-ms="15022" status="PASS">
+        <test-method signature="testset1(java.lang.String, java.lang.String)[pri:1, instance:TestLab.NewTest@33c911a1]" started-at="2017-10-21T11:38:43Z" name="testset1" data-provider="dp" finished-at="2017-10-21T11:39:02Z" duration-ms="19302" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -39,7 +39,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testset1 -->
-        <test-method signature="testset2(java.lang.String, java.lang.String)[pri:1, instance:TestLab.NewTest@33c911a1]" started-at="2017-10-20T16:22:31Z" name="testset2" data-provider="dp" finished-at="2017-10-20T16:22:46Z" duration-ms="15024" status="PASS">
+        <test-method signature="testset2(java.lang.String, java.lang.String)[pri:1, instance:TestLab.NewTest@33c911a1]" started-at="2017-10-21T11:39:02Z" name="testset2" data-provider="dp" finished-at="2017-10-21T11:39:21Z" duration-ms="18921" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -55,7 +55,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testset2 -->
-        <test-method signature="testset2(java.lang.String, java.lang.String)[pri:1, instance:TestLab.NewTest@33c911a1]" started-at="2017-10-20T16:22:46Z" name="testset2" data-provider="dp" finished-at="2017-10-20T16:23:01Z" duration-ms="15070" status="PASS">
+        <test-method signature="testset2(java.lang.String, java.lang.String)[pri:1, instance:TestLab.NewTest@33c911a1]" started-at="2017-10-21T11:39:21Z" name="testset2" data-provider="dp" finished-at="2017-10-21T11:39:39Z" duration-ms="17758" status="PASS">
           <params>
             <param index="0">
               <value>
