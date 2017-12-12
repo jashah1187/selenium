@@ -37,7 +37,7 @@ public class Parallel {
         
     @Test 
         public void executSessionThree(){
-            //Third session of WebDriver
+            //Third session of WebDriver ok
        // System.setProperty("webdriver.firefox.marionette","C://softwares//geckodriver-v0.19.0-win642//geckodriver.exe");
         System.setProperty("webdriver.gecko.driver","C://softwares//geckodriver-v0.19.0-win64//geckodriver.exe");
         WebDriver driver = new FirefoxDriver();
