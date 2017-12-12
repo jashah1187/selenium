@@ -46,7 +46,7 @@ public void testrun()
 	    String result = driver.findElement(By.xpath(".//*[@id='content']/p[2]/font/b")).getText();
 
 	    
-	    // Print a Log In message to the screen
+	    // Print a Log In message to the screen save
 	    System.out.println(" The Result is " + result);
 	    driver.close();
 	}
